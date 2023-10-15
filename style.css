@@ -1,0 +1,35 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+header{
+    border-bottom: 1px solid #ddd;
+}
+header > div{
+    width: 90%;
+    height: 65px;
+    margin: 0 auto;
+}
+header .logo{
+    float: left;
+    margin-top: 10px;
+}
+header .gnb{
+    float: right;
+}
+header .gnb li{
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 24px;
+}
+header .gnb li:first-child{
+    margin-left: 0;
+}
